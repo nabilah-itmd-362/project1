@@ -64,17 +64,31 @@ input {
 		font-size: 24px;
 	}
 
-	.label1 {
-		font-size: 18px;
-	}
-
 	.input1 {
 		font-size: 14px;
+	}
+
+	.label1 {
+		font-size: 18px;
 	}
 
 }
 
 /*Media Query for Desktop*/
 @media (min-width: 1025px) and (max-width: 1280px) {
+	.box {
+		width: 600px;
+		height: 420px;
+	}
+
+	.heading1 {
+		font-size: 48px;
+	}
+
+	.input1 {
+		width: 400px;
+		height: 40px;
+		font-size: 18px;
+	}
 
 }
