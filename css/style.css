@@ -1,0 +1,26 @@
+body {
+	/*add background image*/
+	background-image: url('chicago.jpeg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/*Add box for sign-up form*/
+.box {
+	padding: 2.5rem;
+	background-color: #D3D3D3;
+	text-align: center;
+	width: 480px;
+	height: 336px;
+	margin: 0 auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+}
+
+h1 {
+	text-align: center;
+}
