@@ -4,3 +4,14 @@ jQuery(function($) {
   $('html').addClass('hasjs');
 });
 
+function thankYou() {
+  var txt;
+  if (confirm("Your response was received!")) {
+    txt = "Thank you for joining our Mailing List!";
+  }
+  document.getElementById("thankYouMessage").innerHTML = txt;
+
+  setTimeout(function() {
+    document.getElementById("thankYouMessage").style.display='none';
+  }, 5000);
+}

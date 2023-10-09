@@ -10,6 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--Adding jQuery here-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src="js/site.js"?></script>
 </head>
 <body>
 	<h1 class="heading1">Join our Mailing List!</h1>
@@ -24,7 +25,8 @@
 			<input type="text" name="lastName" id = "lastName" class="input1" placeholder="Last Name"><br>
 			<input type="checkbox" id="checkbox" name="checkbox">
 			<label for="checkbox" class="label1">I agree to receive emails from your student organization and accept your terms and conditions.</label><br>
-			<input type="submit" value="Submit" class="label1">
+			<input type="submit" value="Submit" class="label1" onclick="thankYou()">
+			<p id="thankYouMessage"></p>
 		</div>
 	</form>
 </body>
