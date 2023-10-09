@@ -29,13 +29,15 @@ body {
 
 .label1 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 24px;
+	font-size: 20px;
 }
 
 .input1 {
 	font-family: 'Roboto', sans-serif;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
+	width: 330px;
+	height: 36px;
+	font-size: 16px;
 }
 
 form {
@@ -48,4 +50,9 @@ label {
 
 input {
 	display: table-cell;
+}
+
+#label1: hover {
+	background-color: #F5F5F5;
+
 }
