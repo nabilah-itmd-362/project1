@@ -21,6 +21,9 @@ body {
 	border-radius: 5px;
 }
 
-h1 {
+.heading1 {
+	font-size: 36px;
 	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 40px;	
 }
