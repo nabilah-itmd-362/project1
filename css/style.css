@@ -35,6 +35,7 @@ body {
 .input1 {
 	font-family: 'Roboto', sans-serif;
 	margin-bottom: 15px;
+	margin-top: 5px;
 	width: 330px;
 	height: 36px;
 	font-size: 16px;
@@ -54,5 +55,26 @@ input {
 
 #label1: hover {
 	background-color: #F5F5F5;
+}
+
+/*Add two media queries here*/
+/*Media Query for Mobile Device*/
+@media (max-width: 480px) {
+	.heading1 {
+		font-size: 24px;
+	}
+
+	.label1 {
+		font-size: 18px;
+	}
+
+	.input1 {
+		font-size: 14px;
+	}
+
+}
+
+/*Media Query for Desktop*/
+@media (min-width: 1025px) and (max-width: 1280px) {
 
 }
