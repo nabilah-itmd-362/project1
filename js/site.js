@@ -13,5 +13,5 @@ function thankYou() {
 
   setTimeout(function() {
     document.getElementById("thankYouMessage").style.display='none';
-  }, 5000);
+  }, 60000);
 }
