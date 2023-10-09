@@ -10,7 +10,6 @@ body {
 .box {
 	padding: 2.5rem;
 	background-color: #D3D3D3;
-	text-align: center;
 	width: 480px;
 	height: 336px;
 	margin: 0 auto;
@@ -30,4 +29,23 @@ body {
 
 .label1 {
 	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+}
+
+.input1 {
+	font-family: 'Roboto', sans-serif;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+form {
+	display: table;
+}
+
+label {
+	display: table-cell;
+}
+
+input {
+	display: table-cell;
 }
