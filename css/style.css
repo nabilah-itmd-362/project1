@@ -24,19 +24,19 @@ body {
 .heading1 {
 	font-size: 36px;
 	text-align: center;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', 'Arial';
 	margin-top: 40px;	
 	font-weight: bold;
 }
 
 .label1 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', 'Arial';
 	font-size: 20px;
 	font-weight: bold;
 }
 
 .input1 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', 'Arial';
 	margin-bottom: 15px;
 	margin-top: 5px;
 	width: 330px;
