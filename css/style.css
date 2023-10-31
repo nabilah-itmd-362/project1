@@ -65,32 +65,39 @@ input {
 
 @media and (min-width: 320px) and (max-width: 480px) {
 	.box {
-	padding: 2.5rem;
-	background-color: #D3D3D3;
-	width: 480px;
-	height: 336px;
-	margin: 0 auto;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	border-radius: 5px;
-	border: 0.25rem solid;
-}
-}
-	/*
-	.heading1 {
-		font-size: 24px;
-	}
+    padding: 1.5rem;
+    background-color: #D3D3D3;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 0.25rem solid;
+    position: static; /* Reset the positioning to make it relative to the document flow */
+  }
 
-	.input1 {
-		font-size: 14px;
-		width: 90%;
-	}
+  .heading1 {
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Roboto', 'Arial';
+    margin-top: 20px;
+    font-weight: bold;
+  }
 
-	.label1 {
-		font-size: 18px;
-	}*/
+  .label1 {
+    font-family: 'Roboto', 'Arial';
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .input1 {
+    font-family: 'Roboto', 'Arial';
+    margin-bottom: 10px;
+    margin-top: 5px;
+    width: 100%;
+    font-size: 14px;
+  }
+
+}
 
 }
 
