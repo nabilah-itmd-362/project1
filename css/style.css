@@ -62,44 +62,48 @@ input {
 
 /*Add two media queries here*/
 /*Media Query for Mobile Device*/
+@media screen and (min-width: 320px) and (max-width: 480px) {
 
-@media and (min-width: 320px) and (max-width: 480px) {
+	.heading1 {
+		font-size: 25px;
+		text-align: center;
+		font-family: 'Roboto', 'Arial';
+		margin-top: 20px;	
+		font-weight: bold;
+	}
+
 	.box {
-    padding: 1.5rem;
-    background-color: #D3D3D3;
-    width: 100%;
-    max-width: 320px;
-    margin: 0 auto;
-    border-radius: 5px;
-    border: 0.25rem solid;
-    position: static; /* Reset the positioning to make it relative to the document flow */
-  }
+		position: fixed;
+		padding: 1.5rem;
+		background-color: #D3D3D3;
+		width: 200px;
+		height: 320px;
+		margin: 0 auto;
+		position: absolute;
+		top: 50%;
+		/*left: 50%;
+		transform: translate(-50%, -50%);*/
+		border-radius: 5px;
+		border: 0.25rem solid;
+	}
 
-  .heading1 {
-    font-size: 24px;
-    text-align: center;
-    font-family: 'Roboto', 'Arial';
-    margin-top: 20px;
-    font-weight: bold;
-  }
+	.label1 {
+		font-family: 'Roboto', 'Arial';
+		font-size: 15px;
+		font-weight: bold;
+	}
 
-  .label1 {
-    font-family: 'Roboto', 'Arial';
-    font-size: 16px;
-    font-weight: bold;
-  }
-
-  .input1 {
-    font-family: 'Roboto', 'Arial';
-    margin-bottom: 10px;
-    margin-top: 5px;
-    width: 100%;
-    font-size: 14px;
-  }
+	.input1 {
+		font-family: 'Roboto', 'Arial';
+		margin-bottom: 15px;
+		margin-top: 5px;
+		width: 100%;
+		height: 30px;
+		font-size: 15px;
+	}
 
 }
 
-}
 
 /*Media Query for Desktop*/
 @media (min-width: 1025px) and (max-width: 1200px) {
