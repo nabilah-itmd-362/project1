@@ -62,7 +62,23 @@ input {
 
 /*Add two media queries here*/
 /*Media Query for Mobile Device*/
-@media (min-width: 481px) and (max-width: 768px) {
+
+@media and (min-width: 320px) and (max-width: 480px) {
+	.box {
+	padding: 2.5rem;
+	background-color: #D3D3D3;
+	width: 480px;
+	height: 336px;
+	margin: 0 auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	border: 0.25rem solid;
+}
+}
+	/*
 	.heading1 {
 		font-size: 24px;
 	}
@@ -74,7 +90,7 @@ input {
 
 	.label1 {
 		font-size: 18px;
-	}
+	}*/
 
 }
 
