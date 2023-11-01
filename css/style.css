@@ -121,11 +121,23 @@ input {
 
 }
 
-/*Media Query for Tablets*/
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+/*Media Query for Desktops*/
+@media (min-width: 1025px) {
 	.box {
-		top: 35%;
+		padding: 0.5rem;
+		background-color: #D3D3D3;
+		width: 200px;
+		height: 320px;
+		margin: 0 auto;
+		position: absolute;
+		top: 70%;
+		left: 50%;
+		transform: translate(-50%, -50%);*/
+		border-radius: 5px;
+		border: 0.25rem solid;
 	}
+
+}
 
 
 }
