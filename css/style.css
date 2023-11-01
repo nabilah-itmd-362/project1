@@ -105,21 +105,27 @@ input {
 }
 
 
-/*Media Query for Desktop*/
-@media (min-width: 1025px) and (max-width: 1200px) {
-	.box {
-		width: 600px;
-		height: 420px;
-	}
-
+/*Media Query for Larger Phones*/
+@media screen and (min-width: 1080px) and (max-width: 1920px) {
 	.heading1 {
-		font-size: 48px;
+		font-size: 30px;
+		text-align: center;
+		font-family: 'Roboto', 'Arial';
+		margin-top: 40px;	
+		font-weight: bold;
 	}
 
-	.input1 {
-		width: 400px;
-		height: 40px;
-		font-size: 18px;
+	.box {
+		top: 18%;
 	}
+
+}
+
+/*Media Query for Tablets*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.box {
+		top: 35%;
+	}
+
 
 }
