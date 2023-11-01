@@ -124,7 +124,7 @@ input {
 /*Media Query for Desktops*/
 @media (min-width: 1025px) {
 	.box {
-		padding: 1.25rem;
+		padding: 2rem;
 		background-color: #D3D3D3;
 		width: 500px;
 		height: 350px;
@@ -136,5 +136,7 @@ input {
 		border-radius: 5px;
 		border: 0.25rem solid;
 	}
+
+
 
 }
