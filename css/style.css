@@ -124,15 +124,15 @@ input {
 /*Media Query for Desktops*/
 @media (min-width: 1025px) {
 	.box {
-		padding: 0.5rem;
+		padding: 1.25rem;
 		background-color: #D3D3D3;
-		width: 200px;
-		height: 320px;
+		width: 500px;
+		height: 350px;
 		margin: 0 auto;
 		position: absolute;
-		top: 70%;
+		top: 50%;
 		left: 50%;
-		transform: translate(-50%, -50%);*/
+		transform: translate(-50%, -50%);
 		border-radius: 5px;
 		border: 0.25rem solid;
 	}
