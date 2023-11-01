@@ -74,13 +74,13 @@ input {
 
 	.box {
 		position: fixed;
-		padding: 1.5rem;
+		padding: 1.25rem;
 		background-color: #D3D3D3;
 		width: 200px;
 		height: 320px;
 		margin: 0 auto;
 		position: absolute;
-		top: 50%;
+		top: 53%;
 		/*left: 50%;
 		transform: translate(-50%, -50%);*/
 		border-radius: 5px;
